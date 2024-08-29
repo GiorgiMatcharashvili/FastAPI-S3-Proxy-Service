@@ -1,0 +1,21 @@
+# Core Dependencies
+fastapi==0.112.2
+uvicorn==0.30.6
+
+# AWS SDK
+boto3==1.35.8
+
+# Data Validation and Settings Management
+pydantic==2.8.2
+pydantic-settings==2.4.0
+
+# File Handling
+python-multipart==0.0.9
+
+# Testing Frameworks
+pytest==8.3.2
+pytest-asyncio==0.24.0
+pytest-cov==5.0.0
+
+# A framework for managing and maintaining multi-language pre-commit hooks.
+pre-commit==3.8.0
