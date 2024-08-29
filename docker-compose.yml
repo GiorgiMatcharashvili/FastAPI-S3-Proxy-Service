@@ -7,7 +7,7 @@ services:
     ports:
       - "8000:8000"
     env_file:
-      - .env.example
+      - .env
     volumes:
       - .:/usr/src/app
     depends_on:
@@ -24,7 +24,7 @@ services:
     image: minio/minio:latest
     command: server /data
     env_file:
-      - .env.example
+      - .env
     ports:
       - "9000:9000"
     volumes:
